@@ -1,4 +1,4 @@
-﻿  Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/source/compiler/cmake/CMakeLists.txt
+﻿  Building Custom Rule D:/01-Learning/07-PhysX/physx/source/compiler/cmake/CMakeLists.txt
   Adjacencies.cpp
   Cooking.cpp
   CookingUtils.cpp
@@ -20,5 +20,5 @@
   QuickHullConvexHullLib.cpp
   VolumeIntegration.cpp
   WindowsCookingDelayLoadHook.cpp
-    正在创建库 D:/01-Learning/06-PhysX/PhysX/physx/bin/win.x86_64.vc141.mt/debug/PhysXCooking_64.lib 和对象 D:/01-Learning/06-PhysX/PhysX/physx/bin/win.x86_64.vc141.mt/debug/PhysXCooking_64.exp
-  PhysXCooking.vcxproj -> D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\debug\PhysXCooking_64.dll
+    正在创建库 D:/01-Learning/07-PhysX/physx/bin/win.x86_64.vc141.mt/debug/PhysXCooking_64.lib 和对象 D:/01-Learning/07-PhysX/physx/bin/win.x86_64.vc141.mt/debug/PhysXCooking_64.exp
+  PhysXCooking.vcxproj -> D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\debug\PhysXCooking_64.dll

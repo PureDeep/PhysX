@@ -1,270 +1,270 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyArticulation.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyArticulation.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyArticulationContactPrep.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyArticulationContactPrep.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyArticulationContactPrepPF.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyArticulationContactPrepPF.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyArticulationHelper.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyArticulationHelper.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyArticulationScalar.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyArticulationScalar.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyArticulationSIMD.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyArticulationSIMD.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyFeatherstoneArticulation.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyFeatherstoneArticulation.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyFeatherstoneForwardDynamic.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyFeatherstoneForwardDynamic.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyFeatherstoneInverseDynamic.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyFeatherstoneInverseDynamic.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyConstraintPartition.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyConstraintPartition.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyConstraintSetup.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyConstraintSetup.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyConstraintSetupBlock.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyConstraintSetupBlock.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyContactPrep.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyContactPrep.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyContactPrep4.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyContactPrep4.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyContactPrep4PF.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyContactPrep4PF.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyContactPrepPF.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyContactPrepPF.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyDynamics.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyDynamics.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyFrictionCorrelation.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyFrictionCorrelation.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyRigidBodyToSolverBody.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyRigidBodyToSolverBody.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverConstraints.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverConstraints.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverConstraintsBlock.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverConstraintsBlock.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverControl.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverControl.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverControlPF.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverControlPF.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverPFConstraints.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverPFConstraints.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverPFConstraintsBlock.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverPFConstraintsBlock.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyThreadContext.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyThreadContext.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyThresholdTable.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyThresholdTable.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyTGSDynamics.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyTGSDynamics.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyTGSContactPrep.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyTGSContactPrep.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyTGSContactPrepBlock.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyTGSContactPrepBlock.cpp">
       <Filter>Dynamics Source</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\include\DyArticulationCore.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\include\DyArticulationCore.h">
       <Filter>Dynamics Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\include\DyVArticulation.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\include\DyVArticulation.h">
       <Filter>Dynamics Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\include\DyArticulation.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\include\DyArticulation.h">
       <Filter>Dynamics Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\include\DyFeatherstoneArticulation.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\include\DyFeatherstoneArticulation.h">
       <Filter>Dynamics Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\include\DyFeatherstoneArticulationJointData.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\include\DyFeatherstoneArticulationJointData.h">
       <Filter>Dynamics Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\include\DyFeatherstoneArticulationUtils.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\include\DyFeatherstoneArticulationUtils.h">
       <Filter>Dynamics Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\include\DyConstraint.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\include\DyConstraint.h">
       <Filter>Dynamics Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\include\DyConstraintWriteBack.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\include\DyConstraintWriteBack.h">
       <Filter>Dynamics Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\include\DyContext.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\include\DyContext.h">
       <Filter>Dynamics Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\include\DySleepingConfigulation.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\include\DySleepingConfigulation.h">
       <Filter>Dynamics Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\include\DyThresholdTable.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\include\DyThresholdTable.h">
       <Filter>Dynamics Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\include\DyArticulationJointCore.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\include\DyArticulationJointCore.h">
       <Filter>Dynamics Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverConstraint1DStep.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverConstraint1DStep.h">
       <Filter>Dynamics Source</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyArticulationContactPrep.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyArticulationContactPrep.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyArticulationFnsDebug.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyArticulationFnsDebug.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyArticulationFnsScalar.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyArticulationFnsScalar.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyArticulationFnsSimd.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyArticulationFnsSimd.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyArticulationHelper.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyArticulationHelper.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyArticulationPImpl.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyArticulationPImpl.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyArticulationReference.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyArticulationReference.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyArticulationScalar.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyArticulationScalar.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyArticulationUtils.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyArticulationUtils.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyFeatherstoneArticulationLink.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyFeatherstoneArticulationLink.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyBodyCoreIntegrator.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyBodyCoreIntegrator.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyConstraintPartition.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyConstraintPartition.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyConstraintPrep.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyConstraintPrep.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyContactPrep.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyContactPrep.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyContactPrepShared.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyContactPrepShared.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyContactReduction.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyContactReduction.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyCorrelationBuffer.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyCorrelationBuffer.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyDynamics.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyDynamics.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyFrictionPatch.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyFrictionPatch.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyFrictionPatchStreamPair.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyFrictionPatchStreamPair.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverBody.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverBody.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverConstraint1D.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverConstraint1D.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverConstraint1D4.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverConstraint1D4.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverConstraintDesc.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverConstraintDesc.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverConstraintExtShared.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverConstraintExtShared.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverConstraintsShared.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverConstraintsShared.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverConstraintTypes.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverConstraintTypes.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverContact.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverContact.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverContact4.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverContact4.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverContactPF.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverContactPF.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverContactPF4.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverContactPF4.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverContext.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverContext.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverControl.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverControl.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverControlPF.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverControlPF.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverCore.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverCore.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySolverExt.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySolverExt.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DySpatial.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DySpatial.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyThreadContext.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyThreadContext.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyTGSDynamics.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyTGSDynamics.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\lowleveldynamics\src\DyTGSContactPrep.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\lowleveldynamics\src\DyTGSContactPrep.h">
       <Filter>Dynamics Internal Includes</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\CMakeLists.txt" />
+    <CustomBuild Include="D:\01-Learning\07-PhysX\physx\source\compiler\cmake\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Dynamics Includes">
-      <UniqueIdentifier>{AB6278B5-3A42-3A7D-B516-F46446B61901}</UniqueIdentifier>
+      <UniqueIdentifier>{9F0CE862-3AED-3F36-A903-5705B2E401B6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Dynamics Internal Includes">
-      <UniqueIdentifier>{B931D2E0-5B4D-3242-969B-124542781A1C}</UniqueIdentifier>
+      <UniqueIdentifier>{1F9E7636-8C83-3565-A676-F1DAB5E89D9A}</UniqueIdentifier>
     </Filter>
     <Filter Include="Dynamics Source">
-      <UniqueIdentifier>{CA67FA62-1935-3889-8D3F-39DBB76DF346}</UniqueIdentifier>
+      <UniqueIdentifier>{08A2DED6-6A0A-39B7-97E9-54BE87FA326A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

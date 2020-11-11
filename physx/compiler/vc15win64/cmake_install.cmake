@@ -1,8 +1,8 @@
-# Install script for directory: D:/01-Learning/06-PhysX/PhysX/physx/compiler/public
+# Install script for directory: D:/01-Learning/07-PhysX/physx/compiler/public
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "D:/01-Learning/06-PhysX/PhysX/physx/install/vc15win64/PhysX")
+  set(CMAKE_INSTALL_PREFIX "D:/01-Learning/07-PhysX/physx/install/vc15win64/PhysX")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_source_bin/cmake_install.cmake")
-  include("D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_snippets_bin/cmake_install.cmake")
-  include("D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_samples_bin/cmake_install.cmake")
+  include("D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_source_bin/cmake_install.cmake")
+  include("D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_snippets_bin/cmake_install.cmake")
+  include("D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_samples_bin/cmake_install.cmake")
 
 endif()
 
@@ -48,5 +48,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/01-Learning/07-PhysX/physx/compiler/vc15win64/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{68201E88-F1FD-3199-BE8E-77A088643EA1}</ProjectGuid>
+    <ProjectGuid>{5161B0B2-C440-3216-88E7-50CA4D8C31E1}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -150,7 +150,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\CMakeFiles\0335efa54ae710fa7d0a8cb0df8a869f\INSTALL_force.rule">
+    <CustomBuild Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\CMakeFiles\9107a61fd334d85125047eba5a544243\INSTALL_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='debug|x64'">setlocal
 cd .
@@ -162,7 +162,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='checked|x64'">setlocal
@@ -175,7 +175,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='checked|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='profile|x64'">setlocal
@@ -188,7 +188,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='profile|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='release|x64'">setlocal
@@ -201,19 +201,19 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\ZERO_CHECK.vcxproj">
-      <Project>{F9E2409F-C349-32D2-95A9-98820B7CAD3F}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\ZERO_CHECK.vcxproj">
+      <Project>{CDBEF4C7-D392-31D5-B418-0DAD3BEEFE9B}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\ALL_BUILD.vcxproj">
-      <Project>{6395FA5E-BC24-3558-B08E-8D230B91C24F}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\ALL_BUILD.vcxproj">
+      <Project>{0598921D-17E5-3B5E-A69B-22396B87B8A0}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

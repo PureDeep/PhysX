@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6395FA5E-BC24-3558-B08E-8D230B91C24F}</ProjectGuid>
+    <ProjectGuid>{0598921D-17E5-3B5E-A69B-22396B87B8A0}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -102,10 +102,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/source/compiler/cmake/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\01-Learning\07-PhysX\physx\source\compiler\cmake\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule D:/01-Learning/07-PhysX/physx/source/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/06-PhysX/PhysX/physx/compiler/public -BD:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_source_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/07-PhysX/physx/compiler/public -BD:/01-Learning/07-PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_source_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -113,12 +113,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\template\PxIncludeTemplate.h;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\FastXml.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\LowLevel.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\LowLevelAABB.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\LowLevelDynamics.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysX.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXCharacterKinematic.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXCommon.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXCooking.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXExtensions.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXFoundation.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXPvdSDK.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXTask.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXVehicle.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\SceneQuery.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\SimulationController.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\FastXml.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\LowLevel.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\LowLevelAABB.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\LowLevelDynamics.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysX.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXCharacterKinematic.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXCommon.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXCooking.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXExtensions.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXFoundation.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXPvdSDK.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXTask.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXVehicle.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\SceneQuery.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\SimulationController.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\07-PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\template\PxIncludeTemplate.h;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\FastXml.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\LowLevel.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\LowLevelAABB.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\LowLevelDynamics.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysX.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXCharacterKinematic.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXCommon.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXCooking.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXExtensions.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXFoundation.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXPvdSDK.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXTask.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXVehicle.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\SceneQuery.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\SimulationController.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\FastXml.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\LowLevel.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\LowLevelAABB.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\LowLevelDynamics.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysX.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXCharacterKinematic.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXCommon.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXCooking.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXExtensions.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXFoundation.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXPvdSDK.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXTask.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXVehicle.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\SceneQuery.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\SimulationController.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/source/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule D:/01-Learning/07-PhysX/physx/source/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='checked|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/06-PhysX/PhysX/physx/compiler/public -BD:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_source_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/07-PhysX/physx/compiler/public -BD:/01-Learning/07-PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_source_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -126,12 +126,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\template\PxIncludeTemplate.h;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\FastXml.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\LowLevel.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\LowLevelAABB.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\LowLevelDynamics.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysX.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXCharacterKinematic.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXCommon.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXCooking.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXExtensions.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXFoundation.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXPvdSDK.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXTask.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXVehicle.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\SceneQuery.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\SimulationController.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\FastXml.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\LowLevel.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\LowLevelAABB.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\LowLevelDynamics.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysX.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXCharacterKinematic.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXCommon.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXCooking.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXExtensions.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXFoundation.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXPvdSDK.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXTask.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXVehicle.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\SceneQuery.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\SimulationController.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\07-PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\template\PxIncludeTemplate.h;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\FastXml.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\LowLevel.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\LowLevelAABB.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\LowLevelDynamics.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysX.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXCharacterKinematic.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXCommon.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXCooking.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXExtensions.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXFoundation.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXPvdSDK.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXTask.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXVehicle.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\SceneQuery.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\SimulationController.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\FastXml.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\LowLevel.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\LowLevelAABB.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\LowLevelDynamics.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysX.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXCharacterKinematic.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXCommon.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXCooking.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXExtensions.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXFoundation.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXPvdSDK.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXTask.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXVehicle.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\SceneQuery.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\SimulationController.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='checked|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/source/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule D:/01-Learning/07-PhysX/physx/source/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='profile|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/06-PhysX/PhysX/physx/compiler/public -BD:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_source_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/07-PhysX/physx/compiler/public -BD:/01-Learning/07-PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_source_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -139,12 +139,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\template\PxIncludeTemplate.h;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\FastXml.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\LowLevel.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\LowLevelAABB.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\LowLevelDynamics.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysX.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXCharacterKinematic.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXCommon.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXCooking.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXExtensions.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXFoundation.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXPvdSDK.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXTask.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXVehicle.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\SceneQuery.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\SimulationController.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\FastXml.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\LowLevel.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\LowLevelAABB.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\LowLevelDynamics.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysX.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXCharacterKinematic.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXCommon.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXCooking.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXExtensions.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXFoundation.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXPvdSDK.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXTask.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXVehicle.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\SceneQuery.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\SimulationController.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\07-PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\template\PxIncludeTemplate.h;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\FastXml.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\LowLevel.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\LowLevelAABB.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\LowLevelDynamics.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysX.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXCharacterKinematic.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXCommon.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXCooking.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXExtensions.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXFoundation.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXPvdSDK.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXTask.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXVehicle.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\SceneQuery.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\SimulationController.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\FastXml.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\LowLevel.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\LowLevelAABB.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\LowLevelDynamics.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysX.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXCharacterKinematic.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXCommon.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXCooking.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXExtensions.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXFoundation.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXPvdSDK.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXTask.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXVehicle.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\SceneQuery.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\SimulationController.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/source/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule D:/01-Learning/07-PhysX/physx/source/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/06-PhysX/PhysX/physx/compiler/public -BD:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_source_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/07-PhysX/physx/compiler/public -BD:/01-Learning/07-PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_source_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -152,80 +152,80 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\template\PxIncludeTemplate.h;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\FastXml.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\LowLevel.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\LowLevelAABB.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\LowLevelDynamics.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysX.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXCharacterKinematic.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXCommon.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXCooking.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXExtensions.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXFoundation.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXPvdSDK.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXTask.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\PhysXVehicle.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\SceneQuery.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\SimulationController.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\FastXml.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\LowLevel.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\LowLevelAABB.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\LowLevelDynamics.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysX.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXCharacterKinematic.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXCommon.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXCooking.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXExtensions.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXFoundation.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXPvdSDK.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXTask.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\PhysXVehicle.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\SceneQuery.cmake;D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\windows\SimulationController.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\07-PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\template\PxIncludeTemplate.h;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\FastXml.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\LowLevel.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\LowLevelAABB.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\LowLevelDynamics.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysX.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXCharacterKinematic.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXCommon.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXCooking.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXExtensions.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXFoundation.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXPvdSDK.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXTask.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\PhysXVehicle.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\SceneQuery.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\SimulationController.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\FastXml.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\LowLevel.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\LowLevelAABB.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\LowLevelDynamics.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysX.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXCharacterKinematic.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXCommon.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXCooking.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXExtensions.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXFoundation.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXPvdSDK.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXTask.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\PhysXVehicle.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\SceneQuery.cmake;D:\01-Learning\07-PhysX\physx\source\compiler\cmake\windows\SimulationController.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\ZERO_CHECK.vcxproj">
-      <Project>{F9E2409F-C349-32D2-95A9-98820B7CAD3F}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\ZERO_CHECK.vcxproj">
+      <Project>{CDBEF4C7-D392-31D5-B418-0DAD3BEEFE9B}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\FastXml.vcxproj">
-      <Project>{5EB29DC9-B698-3715-8E28-8895666A586C}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\FastXml.vcxproj">
+      <Project>{77783ADA-8E13-384F-8B54-644B515F20B7}</Project>
       <Name>FastXml</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\LowLevel.vcxproj">
-      <Project>{856AE173-888D-389E-A0AA-749C41332324}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\LowLevel.vcxproj">
+      <Project>{31955868-97C9-3963-B7BD-E352F4DE2DDE}</Project>
       <Name>LowLevel</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\LowLevelAABB.vcxproj">
-      <Project>{7EE0A3F4-3EBA-3470-B747-FCF41CEA3A64}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\LowLevelAABB.vcxproj">
+      <Project>{91FAA62B-B89C-3251-988E-8C53F36C2B58}</Project>
       <Name>LowLevelAABB</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\LowLevelDynamics.vcxproj">
-      <Project>{9F48C299-C31E-3DA6-B5F5-F45F8DB800E7}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\LowLevelDynamics.vcxproj">
+      <Project>{71983EEC-09A4-3F4E-8131-8D66D91D26C7}</Project>
       <Name>LowLevelDynamics</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysX.vcxproj">
-      <Project>{32A9C81D-7CA4-39EA-981C-B72D03C21078}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysX.vcxproj">
+      <Project>{19ACF458-20E8-38AC-9710-C1CB765ABC83}</Project>
       <Name>PhysX</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXCharacterKinematic.vcxproj">
-      <Project>{27613C86-6E1D-32EA-A261-4456639CB5E2}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXCharacterKinematic.vcxproj">
+      <Project>{103D2358-3096-3451-A2FA-C1AA39E12C16}</Project>
       <Name>PhysXCharacterKinematic</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXCommon.vcxproj">
-      <Project>{D36C5C17-BFA3-31B7-B8A1-D3071EA973DD}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXCommon.vcxproj">
+      <Project>{475754B0-995A-3714-A2C2-34D7D8FB4FEF}</Project>
       <Name>PhysXCommon</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXCooking.vcxproj">
-      <Project>{E9CE27D1-BC67-3326-8AE0-DF9EE8F623DD}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXCooking.vcxproj">
+      <Project>{2B7FAE6D-1A1A-3896-AC92-44167C7385E4}</Project>
       <Name>PhysXCooking</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXExtensions.vcxproj">
-      <Project>{1C69FD33-ABB5-3EA6-882D-15D6245C8749}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXExtensions.vcxproj">
+      <Project>{77A51F7E-D1D7-3E1F-AA8F-2A54B2A49EE1}</Project>
       <Name>PhysXExtensions</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXFoundation.vcxproj">
-      <Project>{49A8D320-784D-33BD-842D-ADF98C0A4046}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXFoundation.vcxproj">
+      <Project>{B71010BC-C64A-3B8E-BD37-1E540FA2E7AB}</Project>
       <Name>PhysXFoundation</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXPvdSDK.vcxproj">
-      <Project>{F379097F-1CA8-3486-AB81-0946E4393AA1}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXPvdSDK.vcxproj">
+      <Project>{A299535C-269A-3190-968A-E1961C257385}</Project>
       <Name>PhysXPvdSDK</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXTask.vcxproj">
-      <Project>{6FEB5587-8199-3F5B-88AE-72D4A3D0CE63}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXTask.vcxproj">
+      <Project>{B2E6B832-C877-37D8-AA58-0C5058DD6216}</Project>
       <Name>PhysXTask</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXVehicle.vcxproj">
-      <Project>{02083156-18BE-3C2E-8AE8-EF75E16EB546}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXVehicle.vcxproj">
+      <Project>{837691E2-5332-35C5-8451-D4CE98F4E7A9}</Project>
       <Name>PhysXVehicle</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\SceneQuery.vcxproj">
-      <Project>{EB21D047-AEC7-3EAE-9BA7-B86153DBD4D6}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\SceneQuery.vcxproj">
+      <Project>{65719435-CD89-36DD-890D-296510746B15}</Project>
       <Name>SceneQuery</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\SimulationController.vcxproj">
-      <Project>{32463CBD-4C1B-3154-BA75-A82345C76BC5}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\SimulationController.vcxproj">
+      <Project>{45312D07-0AC4-36AA-A7E4-77D8150FAEBE}</Project>
       <Name>SimulationController</Name>
     </ProjectReference>
   </ItemGroup>

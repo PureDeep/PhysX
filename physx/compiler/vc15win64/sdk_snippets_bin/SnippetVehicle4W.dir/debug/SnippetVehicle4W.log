@@ -1,4 +1,4 @@
-﻿  Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt
+﻿  Building Custom Rule D:/01-Learning/07-PhysX/physx/snippets/compiler/cmake/CMakeLists.txt
   ClassicMain.cpp
   SnippetVehicle4W.cpp
   SnippetVehicle4WRender.cpp
@@ -9,4 +9,4 @@
   SnippetVehicleSceneQuery.cpp
   SnippetVehicleTankCreate.cpp
   SnippetVehicleTireFriction.cpp
-  SnippetVehicle4W.vcxproj -> D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\debug\SnippetVehicle4W_64.exe
+  SnippetVehicle4W.vcxproj -> D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\debug\SnippetVehicle4W_64.exe

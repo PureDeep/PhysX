@@ -1,66 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\snippets\snippetcommon\ClassicMain.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\snippets\snippetcommon\ClassicMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\snippets\snippetvehiclescale\SnippetVehicleScale.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\snippets\snippetvehiclescale\SnippetVehicleScale.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\snippets\snippetvehiclescale\SnippetVehicleScaleRender.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\snippets\snippetvehiclescale\SnippetVehicleScaleRender.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicle4WCreate.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicle4WCreate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleCreate.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleCreate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleFilterShader.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleFilterShader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleNoDriveCreate.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleNoDriveCreate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleSceneQuery.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleSceneQuery.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleTankCreate.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleTankCreate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleTireFriction.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleTireFriction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleConcurrency.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleConcurrency.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleCreate.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleCreate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleFilterShader.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleFilterShader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleSceneQuery.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleSceneQuery.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleTireFriction.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleTireFriction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleWheelQueryResult.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleWheelQueryResult.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\CMakeLists.txt" />
+    <CustomBuild Include="D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{E6623D69-50A7-3EE8-A201-5373FE2F8DE1}</UniqueIdentifier>
+      <UniqueIdentifier>{716E49B3-C307-3AF1-9834-B545C43518FE}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{A6E7940F-D991-39A9-91FE-F07CC64784AA}</UniqueIdentifier>
+      <UniqueIdentifier>{59BDA6E9-54F6-3952-A96E-6BCF954C1E05}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
-﻿  Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt
+﻿  Building Custom Rule D:/01-Learning/07-PhysX/physx/snippets/compiler/cmake/CMakeLists.txt
   ClassicMain.cpp
   PulleyJoint.cpp
   SnippetCustomJoint.cpp
   SnippetCustomJointRender.cpp
-  SnippetCustomJoint.vcxproj -> D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\debug\SnippetCustomJoint_64.exe
+  SnippetCustomJoint.vcxproj -> D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\debug\SnippetCustomJoint_64.exe

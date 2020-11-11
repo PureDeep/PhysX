@@ -1,4 +1,4 @@
-﻿  Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/samples/compiler/cmake/CMakeLists.txt
+﻿  Building Custom Rule D:/01-Learning/07-PhysX/physx/samples/compiler/cmake/CMakeLists.txt
   NULLRenderer.cpp
   NULLRendererDirectionalLight.cpp
   NULLRendererIndexBuffer.cpp
@@ -76,5 +76,5 @@
   RendererVertexBuffer.cpp
   RendererVertexBufferDesc.cpp
   RendererWindow.cpp
-OGLRendererVertexBuffer.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
-  SampleRenderer.vcxproj -> D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\debug\SampleRenderer_static_64.lib
+OGLRendererVertexBuffer.obj : warning LNK4221: �˶����ļ�δ�����κ�֮ǰδ����Ĺ������ţ�����κκ��ô˿�����Ӳ���������ʹ�ô��ļ�
+  SampleRenderer.vcxproj -> D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\debug\SampleRenderer_static_64.lib

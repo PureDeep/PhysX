@@ -1,243 +1,243 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplebridges\SampleBridges.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplebridges\SampleBridges.cpp">
       <Filter>SampleBridges</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplebridges\SampleBridgesCCT.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplebridges\SampleBridgesCCT.cpp">
       <Filter>SampleBridges</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplecustomgravity\Planet.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplecustomgravity\Planet.cpp">
       <Filter>SampleCustomGravity</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplecustomgravity\SampleCustomGravity.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplecustomgravity\SampleCustomGravity.cpp">
       <Filter>SampleCustomGravity</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplecustomgravity\SampleCustomGravity_CCT.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplecustomgravity\SampleCustomGravity_CCT.cpp">
       <Filter>SampleCustomGravity</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplecustomgravity\SampleCustomGravityBuilder.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplecustomgravity\SampleCustomGravityBuilder.cpp">
       <Filter>SampleCustomGravity</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplecustomgravity\SampleCustomGravityCameraController.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplecustomgravity\SampleCustomGravityCameraController.cpp">
       <Filter>SampleCustomGravity</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplecustomgravity\SampleCustomGravityFilterShader.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplecustomgravity\SampleCustomGravityFilterShader.cpp">
       <Filter>SampleCustomGravity</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplehelloworld\SampleHelloWorld.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplehelloworld\SampleHelloWorld.cpp">
       <Filter>SampleHelloWorld</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplelargeworld\ChunkLoader.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplelargeworld\ChunkLoader.cpp">
       <Filter>SampleLargeWorld</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplelargeworld\MeshBuilder.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplelargeworld\MeshBuilder.cpp">
       <Filter>SampleLargeWorld</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplelargeworld\SampleLargeWorld.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplelargeworld\SampleLargeWorld.cpp">
       <Filter>SampleLargeWorld</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplelargeworld\SampleLargeWorldCCT.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplelargeworld\SampleLargeWorldCCT.cpp">
       <Filter>SampleLargeWorld</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplenorthpole\SampleNorthPole.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplenorthpole\SampleNorthPole.cpp">
       <Filter>SampleNorthPole</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplenorthpole\SampleNorthPoleBuilder.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplenorthpole\SampleNorthPoleBuilder.cpp">
       <Filter>SampleNorthPole</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplenorthpole\SampleNorthPoleCameraController.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplenorthpole\SampleNorthPoleCameraController.cpp">
       <Filter>SampleNorthPole</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplenorthpole\SampleNorthPoleCCT.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplenorthpole\SampleNorthPoleCCT.cpp">
       <Filter>SampleNorthPole</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplenorthpole\SampleNorthPoleDynamics.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplenorthpole\SampleNorthPoleDynamics.cpp">
       <Filter>SampleNorthPole</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplenorthpole\SampleNorthPoleFilterShader.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplenorthpole\SampleNorthPoleFilterShader.cpp">
       <Filter>SampleNorthPole</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplesubmarine\Crab.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplesubmarine\Crab.cpp">
       <Filter>SampleSubmarine</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplesubmarine\SampleSubmarine.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplesubmarine\SampleSubmarine.cpp">
       <Filter>SampleSubmarine</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplevehicle\SampleVehicle.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplevehicle\SampleVehicle.cpp">
       <Filter>SampleVehicle</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplevehicle\SampleVehicleDebugRender.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplevehicle\SampleVehicleDebugRender.cpp">
       <Filter>SampleVehicle</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplevehicle\SampleVehicleTerrain.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplevehicle\SampleVehicleTerrain.cpp">
       <Filter>SampleVehicle</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplevehicle\SampleVehicle_CameraController.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplevehicle\SampleVehicle_CameraController.cpp">
       <Filter>SampleVehicle</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplevehicle\SampleVehicle_ControlInputs.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplevehicle\SampleVehicle_ControlInputs.cpp">
       <Filter>SampleVehicle</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplevehicle\SampleVehicle_GameLogic.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplevehicle\SampleVehicle_GameLogic.cpp">
       <Filter>SampleVehicle</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplevehicle\SampleVehicle_SceneQuery.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplevehicle\SampleVehicle_SceneQuery.cpp">
       <Filter>SampleVehicle</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleController.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleController.cpp">
       <Filter>SampleVehicle</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleCooking.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleCooking.cpp">
       <Filter>SampleVehicle</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleManager.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleManager.cpp">
       <Filter>SampleVehicle</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplevehicle\SampleVehicle_WheelQueryResults.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplevehicle\SampleVehicle_WheelQueryResults.cpp">
       <Filter>SampleVehicle</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplecctsharedcode\KinematicPlatform.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplecctsharedcode\KinematicPlatform.cpp">
       <Filter>CCTShared</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplecctsharedcode\SampleCCTActor.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplecctsharedcode\SampleCCTActor.cpp">
       <Filter>CCTShared</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplecctsharedcode\SampleCCTCameraController.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplecctsharedcode\SampleCCTCameraController.cpp">
       <Filter>CCTShared</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplecctsharedcode\SampleCCTJump.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\samplecctsharedcode\SampleCCTJump.cpp">
       <Filter>CCTShared</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplebridges\SampleBridges.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplebridges\SampleBridges.h">
       <Filter>SampleBridges</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplebridges\SampleBridgesInputEventIds.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplebridges\SampleBridgesInputEventIds.h">
       <Filter>SampleBridges</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplebridges\SampleBridgesSettings.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplebridges\SampleBridgesSettings.h">
       <Filter>SampleBridges</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplecustomgravity\Planet.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplecustomgravity\Planet.h">
       <Filter>SampleCustomGravity</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplecustomgravity\SampleCustomGravity.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplecustomgravity\SampleCustomGravity.h">
       <Filter>SampleCustomGravity</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplecustomgravity\SampleCustomGravityCameraController.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplecustomgravity\SampleCustomGravityCameraController.h">
       <Filter>SampleCustomGravity</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplecustomgravity\SampleCustomGravityInputEventIds.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplecustomgravity\SampleCustomGravityInputEventIds.h">
       <Filter>SampleCustomGravity</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplehelloworld\SampleHelloWorld.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplehelloworld\SampleHelloWorld.h">
       <Filter>SampleHelloWorld</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplelargeworld\ChunkLoader.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplelargeworld\ChunkLoader.h">
       <Filter>SampleLargeWorld</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplelargeworld\MeshBuilder.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplelargeworld\MeshBuilder.h">
       <Filter>SampleLargeWorld</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplelargeworld\SampleLargeWorld.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplelargeworld\SampleLargeWorld.h">
       <Filter>SampleLargeWorld</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplelargeworld\SampleLargeWorldInputEventIds.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplelargeworld\SampleLargeWorldInputEventIds.h">
       <Filter>SampleLargeWorld</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplenorthpole\SampleNorthPole.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplenorthpole\SampleNorthPole.h">
       <Filter>SampleNorthPole</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplenorthpole\SampleNorthPoleCameraController.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplenorthpole\SampleNorthPoleCameraController.h">
       <Filter>SampleNorthPole</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplenorthpole\SampleNorthPoleInputEventIds.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplenorthpole\SampleNorthPoleInputEventIds.h">
       <Filter>SampleNorthPole</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplesubmarine\Crab.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplesubmarine\Crab.h">
       <Filter>SampleSubmarine</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplesubmarine\SampleSubmarine.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplesubmarine\SampleSubmarine.h">
       <Filter>SampleSubmarine</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplesubmarine\SampleSubmarineInputEventIds.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplesubmarine\SampleSubmarineInputEventIds.h">
       <Filter>SampleSubmarine</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplesubmarine\SubmarineCameraController.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplesubmarine\SubmarineCameraController.h">
       <Filter>SampleSubmarine</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplevehicle\SampleVehicle.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplevehicle\SampleVehicle.h">
       <Filter>SampleVehicle</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplevehicle\SampleVehicleInputEventIds.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplevehicle\SampleVehicleInputEventIds.h">
       <Filter>SampleVehicle</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplevehicle\SampleVehicle_CameraController.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplevehicle\SampleVehicle_CameraController.h">
       <Filter>SampleVehicle</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplevehicle\SampleVehicle_ControlInputs.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplevehicle\SampleVehicle_ControlInputs.h">
       <Filter>SampleVehicle</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplevehicle\SampleVehicle_GameLogic.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplevehicle\SampleVehicle_GameLogic.h">
       <Filter>SampleVehicle</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplevehicle\SampleVehicle_SceneQuery.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplevehicle\SampleVehicle_SceneQuery.h">
       <Filter>SampleVehicle</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleController.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleController.h">
       <Filter>SampleVehicle</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleCooking.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleCooking.h">
       <Filter>SampleVehicle</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleManager.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleManager.h">
       <Filter>SampleVehicle</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplevehicle\SampleVehicle_WheelQueryResults.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplevehicle\SampleVehicle_WheelQueryResults.h">
       <Filter>SampleVehicle</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplecctsharedcode\KinematicPlatform.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplecctsharedcode\KinematicPlatform.h">
       <Filter>CCTShared</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplecctsharedcode\SampleCCTActor.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplecctsharedcode\SampleCCTActor.h">
       <Filter>CCTShared</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplecctsharedcode\SampleCCTCameraController.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplecctsharedcode\SampleCCTCameraController.h">
       <Filter>CCTShared</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\samplecctsharedcode\SampleCCTJump.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\samplecctsharedcode\SampleCCTJump.h">
       <Filter>CCTShared</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\CMakeLists.txt" />
+    <CustomBuild Include="D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CCTShared">
-      <UniqueIdentifier>{F5DC0EC2-822C-3FA4-A778-8B2979F35963}</UniqueIdentifier>
+      <UniqueIdentifier>{7D92C7FD-8968-3CB4-964B-CF140FA29376}</UniqueIdentifier>
     </Filter>
     <Filter Include="SampleBridges">
-      <UniqueIdentifier>{6DE2901E-40AD-330B-9602-3130A9C90BF3}</UniqueIdentifier>
+      <UniqueIdentifier>{31DC82F0-A4C7-3444-BAFD-B3F81C34D10C}</UniqueIdentifier>
     </Filter>
     <Filter Include="SampleCustomGravity">
-      <UniqueIdentifier>{709C6C8E-9370-3F7C-B059-BEEA4D71092F}</UniqueIdentifier>
+      <UniqueIdentifier>{EB93049B-DF6B-3565-9133-246B90175394}</UniqueIdentifier>
     </Filter>
     <Filter Include="SampleHelloWorld">
-      <UniqueIdentifier>{CBBD6DA3-6F14-35F2-9144-DD69CB658C4A}</UniqueIdentifier>
+      <UniqueIdentifier>{8FEB1463-C31A-39B1-AE5E-F3C07DB2F4ED}</UniqueIdentifier>
     </Filter>
     <Filter Include="SampleLargeWorld">
-      <UniqueIdentifier>{FE04EA5B-3A3A-37A2-AAAA-F867A9C9DE6D}</UniqueIdentifier>
+      <UniqueIdentifier>{4C464A78-DC4A-3435-B2CA-9E046B6183DF}</UniqueIdentifier>
     </Filter>
     <Filter Include="SampleNorthPole">
-      <UniqueIdentifier>{0501FB6D-E650-3E41-83B1-1A784190B40C}</UniqueIdentifier>
+      <UniqueIdentifier>{BE5FB376-38C7-3E12-98E9-7FA7D7732755}</UniqueIdentifier>
     </Filter>
     <Filter Include="SampleSubmarine">
-      <UniqueIdentifier>{04217E35-AAA5-3F8B-BCE9-FE5D6890CA90}</UniqueIdentifier>
+      <UniqueIdentifier>{3AA97FD8-3F9B-346A-8079-D97A6B63DA2D}</UniqueIdentifier>
     </Filter>
     <Filter Include="SampleVehicle">
-      <UniqueIdentifier>{B8A4B587-DF08-364C-83F7-4933A21F76BC}</UniqueIdentifier>
+      <UniqueIdentifier>{0FF13B75-1E48-3449-B40A-77DD0D06D0FA}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

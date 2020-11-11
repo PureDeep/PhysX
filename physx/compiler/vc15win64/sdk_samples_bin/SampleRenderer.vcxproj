@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C320E637-D770-369D-B89B-75085487F897}</ProjectGuid>
+    <ProjectGuid>{7956CB2B-7BE1-375D-8FFA-D80B9B904F7B}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -56,26 +56,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">SampleRenderer.dir\debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='debug|x64'">SampleRenderer_static_64</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\checked\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\checked\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='checked|x64'">SampleRenderer.dir\checked\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='checked|x64'">SampleRenderer_static_64</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='checked|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\profile\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\profile\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='profile|x64'">SampleRenderer.dir\profile\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='profile|x64'">SampleRenderer_static_64</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='profile|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">SampleRenderer.dir\release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='release|x64'">SampleRenderer_static_64</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='release|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /d2Zi+</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>UninitializedLocalUsageCheck</BasicRuntimeChecks>
@@ -97,14 +97,14 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>_DEBUG;WIN32;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_DEBUG=1;PX_CHECKED=1;PX_NVTX=0;PX_SUPPORT_PVD=1;CMAKE_INTDIR="debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\debug\SampleRenderer_static__64.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\debug\SampleRenderer_static__64.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_DEBUG=1;PX_CHECKED=1;PX_NVTX=0;PX_SUPPORT_PVD=1;CMAKE_INTDIR=\"debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -117,7 +117,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='checked|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /d2Zi+</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
@@ -138,14 +138,14 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN32;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_CHECKED=1;PX_NVTX=0;PX_SUPPORT_PVD=1;CMAKE_INTDIR="checked";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\checked\SampleRenderer_static__64.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\checked\SampleRenderer_static__64.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_CHECKED=1;PX_NVTX=0;PX_SUPPORT_PVD=1;CMAKE_INTDIR=\"checked\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -158,7 +158,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='profile|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /d2Zi+</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
@@ -179,14 +179,14 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN32;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_PROFILE=1;PX_NVTX=0;PX_SUPPORT_PVD=1;CMAKE_INTDIR="profile";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\profile\SampleRenderer_static__64.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\profile\SampleRenderer_static__64.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_PROFILE=1;PX_NVTX=0;PX_SUPPORT_PVD=1;CMAKE_INTDIR=\"profile\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -199,7 +199,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /d2Zi+</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
@@ -220,14 +220,14 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN32;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_SUPPORT_PVD=0;CMAKE_INTDIR="release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\release\SampleRenderer_static__64.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\release\SampleRenderer_static__64.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_SUPPORT_PVD=0;CMAKE_INTDIR=\"release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\platform\include;D:\01-Learning\07-PhysX\physx\samples\sampleframework\framework\include;D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\samples\pxtoolkit\include;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -239,10 +239,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule D:/01-Learning/07-PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/06-PhysX/PhysX/physx/compiler/public -BD:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/07-PhysX/physx/compiler/public -BD:/01-Learning/07-PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -250,12 +250,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\06-PhysX\PhysX\externals\targa\targa-config-version.cmake;D:\01-Learning\06-PhysX\PhysX\externals\targa\targa-config.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\07-PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\07-PhysX\externals\targa\targa-config-version.cmake;D:\01-Learning\07-PhysX\externals\targa\targa-config.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule D:/01-Learning/07-PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='checked|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/06-PhysX/PhysX/physx/compiler/public -BD:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/07-PhysX/physx/compiler/public -BD:/01-Learning/07-PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -263,12 +263,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\06-PhysX\PhysX\externals\targa\targa-config-version.cmake;D:\01-Learning\06-PhysX\PhysX\externals\targa\targa-config.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\07-PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\07-PhysX\externals\targa\targa-config-version.cmake;D:\01-Learning\07-PhysX\externals\targa\targa-config.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='checked|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule D:/01-Learning/07-PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='profile|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/06-PhysX/PhysX/physx/compiler/public -BD:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/07-PhysX/physx/compiler/public -BD:/01-Learning/07-PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -276,12 +276,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\06-PhysX\PhysX\externals\targa\targa-config-version.cmake;D:\01-Learning\06-PhysX\PhysX\externals\targa\targa-config.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\07-PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\07-PhysX\externals\targa\targa-config-version.cmake;D:\01-Learning\07-PhysX\externals\targa\targa-config.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule D:/01-Learning/07-PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/06-PhysX/PhysX/physx/compiler/public -BD:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/07-PhysX/physx/compiler/public -BD:/01-Learning/07-PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -289,203 +289,203 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\06-PhysX\PhysX\externals\targa\targa-config-version.cmake;D:\01-Learning\06-PhysX\PhysX\externals\targa\targa-config.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\07-PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\07-PhysX\externals\targa\targa-config-version.cmake;D:\01-Learning\07-PhysX\externals\targa\targa-config.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\null\NULLRenderer.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\null\NULLRenderer.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererDirectionalLight.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererDirectionalLight.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererIndexBuffer.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererIndexBuffer.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererInstanceBuffer.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererInstanceBuffer.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererMaterial.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererMaterial.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererMesh.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererMesh.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererSpotLight.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererSpotLight.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererTexture2D.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererTexture2D.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererVertexBuffer.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererVertexBuffer.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9Renderer.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9Renderer.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererDirectionalLight.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererDirectionalLight.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererIndexBuffer.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererIndexBuffer.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererInstanceBuffer.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererInstanceBuffer.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererMaterial.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererMaterial.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererMesh.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererMesh.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererSpotLight.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererSpotLight.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererTarget.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererTarget.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererTexture2D.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererTexture2D.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererVertexBuffer.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererVertexBuffer.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9WPFRenderer.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9WPFRenderer.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11Renderer.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11Renderer.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererDirectionalLight.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererDirectionalLight.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererIndexBuffer.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererIndexBuffer.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererInstanceBuffer.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererInstanceBuffer.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererMaterial.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererMaterial.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererMemoryMacros.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererMesh.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererMesh.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererResourceManager.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererSpotLight.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererSpotLight.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererTarget.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererTarget.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererTexture2D.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererTexture2D.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererTexture3D.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererTexture3D.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererTextureCommon.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererTraits.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererUtils.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererUtils.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererVariableManager.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererVariableManager.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererVertexBuffer.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererVertexBuffer.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\windows\WindowsGLIncludes.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRenderer.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRenderer.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererDirectionalLight.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererDirectionalLight.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererIndexBuffer.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererIndexBuffer.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererInstanceBuffer.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererInstanceBuffer.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererMaterial.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererMaterial.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererMesh.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererMesh.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererSpotLight.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererSpotLight.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererTexture2D.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererTexture2D.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererVertexBuffer.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererVertexBuffer.h" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\Renderer.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererBoxShape.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererCapsuleShape.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererColor.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererDesc.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererDirectionalLight.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererDirectionalLightDesc.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererGridShape.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererIndexBuffer.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererIndexBufferDesc.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererInstanceBuffer.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererInstanceBufferDesc.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererLight.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererLightDesc.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererMaterial.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererMaterialDesc.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererMaterialInstance.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererMesh.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererMeshContext.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererMeshDesc.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererMeshShape.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererProjection.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererShape.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererSpotLight.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererSpotLightDesc.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererTarget.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererTargetDesc.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererTerrainShape.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererTexture.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererTexture2D.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererTexture2DDesc.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererTextureDesc.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererVertexBuffer.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererVertexBufferDesc.cpp" />
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\src\RendererWindow.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\GLIncludes.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\Renderer.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererBoxShape.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererCapsuleShape.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererColor.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererConfig.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererDesc.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererDirectionalLight.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererDirectionalLightDesc.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererFoundation.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererGridShape.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererIndexBuffer.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererIndexBufferDesc.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererInstanceBuffer.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererInstanceBufferDesc.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererInteropableBuffer.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererLight.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererLightDesc.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererMaterial.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererMaterialDesc.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererMaterialInstance.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererMemoryMacros.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererMesh.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererMeshContext.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererMeshDesc.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererMeshShape.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererProjection.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererShape.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererSpotLight.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererSpotLightDesc.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererTarget.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererTargetDesc.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererTerrainShape.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererTexture.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererTexture2D.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererTexture2DDesc.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererTextureDesc.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererUtils.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererVertexBuffer.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererVertexBufferDesc.h" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\sampleframework\renderer\include\RendererWindow.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\null\NULLRenderer.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\null\NULLRenderer.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererDirectionalLight.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererDirectionalLight.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererIndexBuffer.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererIndexBuffer.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererInstanceBuffer.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererInstanceBuffer.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererMaterial.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererMaterial.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererMesh.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererMesh.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererSpotLight.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererSpotLight.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererTexture2D.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererTexture2D.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererVertexBuffer.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\null\NULLRendererVertexBuffer.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9Renderer.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9Renderer.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererDirectionalLight.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererDirectionalLight.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererIndexBuffer.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererIndexBuffer.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererInstanceBuffer.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererInstanceBuffer.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererMaterial.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererMaterial.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererMesh.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererMesh.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererSpotLight.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererSpotLight.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererTarget.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererTarget.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererTexture2D.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererTexture2D.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererVertexBuffer.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9RendererVertexBuffer.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9WPFRenderer.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d9\D3D9WPFRenderer.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11Renderer.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11Renderer.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererDirectionalLight.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererDirectionalLight.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererIndexBuffer.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererIndexBuffer.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererInstanceBuffer.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererInstanceBuffer.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererMaterial.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererMaterial.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererMemoryMacros.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererMesh.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererMesh.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererResourceManager.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererSpotLight.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererSpotLight.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererTarget.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererTarget.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererTexture2D.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererTexture2D.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererTexture3D.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererTexture3D.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererTextureCommon.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererTraits.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererUtils.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererUtils.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererVariableManager.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererVariableManager.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererVertexBuffer.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\d3d11\D3D11RendererVertexBuffer.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\windows\WindowsGLIncludes.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRenderer.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRenderer.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererDirectionalLight.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererDirectionalLight.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererIndexBuffer.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererIndexBuffer.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererInstanceBuffer.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererInstanceBuffer.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererMaterial.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererMaterial.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererMesh.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererMesh.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererSpotLight.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererSpotLight.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererTexture2D.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererTexture2D.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererVertexBuffer.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\ogl\OGLRendererVertexBuffer.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\Renderer.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererBoxShape.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererCapsuleShape.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererColor.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererDesc.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererDirectionalLight.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererDirectionalLightDesc.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererGridShape.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererIndexBuffer.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererIndexBufferDesc.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererInstanceBuffer.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererInstanceBufferDesc.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererLight.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererLightDesc.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererMaterial.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererMaterialDesc.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererMaterialInstance.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererMesh.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererMeshContext.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererMeshDesc.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererMeshShape.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererProjection.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererShape.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererSpotLight.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererSpotLightDesc.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererTarget.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererTargetDesc.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererTerrainShape.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererTexture.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererTexture2D.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererTexture2DDesc.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererTextureDesc.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererVertexBuffer.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererVertexBufferDesc.cpp" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\src\RendererWindow.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\GLIncludes.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\Renderer.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererBoxShape.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererCapsuleShape.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererColor.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererConfig.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererDesc.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererDirectionalLight.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererDirectionalLightDesc.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererFoundation.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererGridShape.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererIndexBuffer.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererIndexBufferDesc.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererInstanceBuffer.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererInstanceBufferDesc.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererInteropableBuffer.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererLight.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererLightDesc.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererMaterial.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererMaterialDesc.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererMaterialInstance.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererMemoryMacros.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererMesh.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererMeshContext.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererMeshDesc.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererMeshShape.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererProjection.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererShape.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererSpotLight.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererSpotLightDesc.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererTarget.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererTargetDesc.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererTerrainShape.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererTexture.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererTexture2D.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererTexture2DDesc.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererTextureDesc.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererUtils.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererVertexBuffer.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererVertexBufferDesc.h" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\samples\sampleframework\renderer\include\RendererWindow.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\ZERO_CHECK.vcxproj">
-      <Project>{F9E2409F-C349-32D2-95A9-98820B7CAD3F}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\ZERO_CHECK.vcxproj">
+      <Project>{CDBEF4C7-D392-31D5-B418-0DAD3BEEFE9B}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysX.vcxproj">
-      <Project>{32A9C81D-7CA4-39EA-981C-B72D03C21078}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysX.vcxproj">
+      <Project>{19ACF458-20E8-38AC-9710-C1CB765ABC83}</Project>
       <Name>PhysX</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXExtensions.vcxproj">
-      <Project>{1C69FD33-ABB5-3EA6-882D-15D6245C8749}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXExtensions.vcxproj">
+      <Project>{77A51F7E-D1D7-3E1F-AA8F-2A54B2A49EE1}</Project>
       <Name>PhysXExtensions</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXFoundation.vcxproj">
-      <Project>{49A8D320-784D-33BD-842D-ADF98C0A4046}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXFoundation.vcxproj">
+      <Project>{B71010BC-C64A-3B8E-BD37-1E540FA2E7AB}</Project>
       <Name>PhysXFoundation</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXPvdSDK.vcxproj">
-      <Project>{F379097F-1CA8-3486-AB81-0946E4393AA1}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXPvdSDK.vcxproj">
+      <Project>{A299535C-269A-3190-968A-E1961C257385}</Project>
       <Name>PhysXPvdSDK</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_samples_bin\SampleToolkit.vcxproj">
-      <Project>{275E2E35-A30A-3A83-ACDF-449B61BDF430}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_samples_bin\SampleToolkit.vcxproj">
+      <Project>{5B812E94-05AB-38E7-9E07-7963817544FA}</Project>
       <Name>SampleToolkit</Name>
     </ProjectReference>
   </ItemGroup>

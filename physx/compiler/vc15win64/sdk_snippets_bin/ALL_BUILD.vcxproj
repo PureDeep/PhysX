@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6395FA5E-BC24-3558-B08E-8D230B91C24F}</ProjectGuid>
+    <ProjectGuid>{0598921D-17E5-3B5E-A69B-22396B87B8A0}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -102,10 +102,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule D:/01-Learning/07-PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/06-PhysX/PhysX/physx/compiler/public -BD:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_snippets_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/07-PhysX/physx/compiler/public -BD:/01-Learning/07-PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_snippets_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -113,12 +113,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\07-PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule D:/01-Learning/07-PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='checked|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/06-PhysX/PhysX/physx/compiler/public -BD:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_snippets_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/07-PhysX/physx/compiler/public -BD:/01-Learning/07-PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_snippets_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -126,12 +126,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\07-PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='checked|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule D:/01-Learning/07-PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='profile|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/06-PhysX/PhysX/physx/compiler/public -BD:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_snippets_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/07-PhysX/physx/compiler/public -BD:/01-Learning/07-PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_snippets_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -139,12 +139,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\07-PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule D:/01-Learning/07-PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/06-PhysX/PhysX/physx/compiler/public -BD:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_snippets_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/07-PhysX/physx/compiler/public -BD:/01-Learning/07-PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_snippets_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -152,162 +152,162 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\07-PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\ZERO_CHECK.vcxproj">
-      <Project>{F9E2409F-C349-32D2-95A9-98820B7CAD3F}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\ZERO_CHECK.vcxproj">
+      <Project>{CDBEF4C7-D392-31D5-B418-0DAD3BEEFE9B}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetArticulation.vcxproj">
-      <Project>{B5C84BC2-30EB-3D7D-8D2C-18D6CE62A769}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetArticulation.vcxproj">
+      <Project>{C8E111C5-E24C-36CB-8999-5B34F44B4790}</Project>
       <Name>SnippetArticulation</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetBVHStructure.vcxproj">
-      <Project>{ADFC0E8C-700B-39A5-8A19-105F95D9FCEE}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetBVHStructure.vcxproj">
+      <Project>{70D70CC3-CCC9-3C29-A60C-88E53B952EF6}</Project>
       <Name>SnippetBVHStructure</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetContactModification.vcxproj">
-      <Project>{7F44B4DF-7C35-3573-A789-C1B8EE6DCED9}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetContactModification.vcxproj">
+      <Project>{098772B9-71AD-3C46-8EBF-4E040C29B67E}</Project>
       <Name>SnippetContactModification</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetContactReport.vcxproj">
-      <Project>{624C4436-EB3C-3A09-BF8B-276BF038559B}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetContactReport.vcxproj">
+      <Project>{9AD1E7DD-9E08-3942-AD6F-F78490787807}</Project>
       <Name>SnippetContactReport</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetContactReportCCD.vcxproj">
-      <Project>{3882BF1C-6783-31ED-9AFB-38FD438626AE}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetContactReportCCD.vcxproj">
+      <Project>{09F6B078-A37D-311B-85C0-71FB3142741C}</Project>
       <Name>SnippetContactReportCCD</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetConvert.vcxproj">
-      <Project>{5E1218D6-F1C1-33C3-B9A1-087C33FF6E81}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetConvert.vcxproj">
+      <Project>{8F4EB8C5-F39E-3376-B0A4-371C8A88C661}</Project>
       <Name>SnippetConvert</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetConvexMeshCreate.vcxproj">
-      <Project>{ADDC563D-76A1-32FB-9A94-0465FE5CBB23}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetConvexMeshCreate.vcxproj">
+      <Project>{ED34B680-FC95-3397-9FEC-BCD7EFFDD1DB}</Project>
       <Name>SnippetConvexMeshCreate</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetCustomJoint.vcxproj">
-      <Project>{BC3F31B8-4861-3D2B-BA94-408E975C8116}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetCustomJoint.vcxproj">
+      <Project>{1E59325A-C90B-323B-AE7F-CE3CC2AD9940}</Project>
       <Name>SnippetCustomJoint</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetCustomProfiler.vcxproj">
-      <Project>{5500062C-BD55-3828-AAE1-716C8D97EC9B}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetCustomProfiler.vcxproj">
+      <Project>{9C0842A8-488F-33B7-A8E4-C0A4B4185B40}</Project>
       <Name>SnippetCustomProfiler</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetDeformableMesh.vcxproj">
-      <Project>{9664B54C-B211-3972-81E7-C3BC05218758}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetDeformableMesh.vcxproj">
+      <Project>{B73D3117-9A46-3703-B668-B2C8DDA0F058}</Project>
       <Name>SnippetDeformableMesh</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetDelayLoadHook.vcxproj">
-      <Project>{095B38BC-B295-326F-9AB3-40B4F6F83B3F}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetDelayLoadHook.vcxproj">
+      <Project>{034BBA47-4935-37D9-8726-E74ECFBD8A2D}</Project>
       <Name>SnippetDelayLoadHook</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetHelloGRB.vcxproj">
-      <Project>{B9A001C5-1045-3B80-BA41-9F9B39BD837E}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetHelloGRB.vcxproj">
+      <Project>{BED9E304-DB85-3A74-BDCD-0BF8D78CAFAC}</Project>
       <Name>SnippetHelloGRB</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetHelloWorld.vcxproj">
-      <Project>{7956A48D-0CED-35C6-8658-6E995E22DFA6}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetHelloWorld.vcxproj">
+      <Project>{D96C11E8-8CD2-3C45-A22E-E8E1DD8442AA}</Project>
       <Name>SnippetHelloWorld</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetImmediateArticulation.vcxproj">
-      <Project>{2608A5EC-BB87-3C37-A5B0-F8ABE5397C3B}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetImmediateArticulation.vcxproj">
+      <Project>{4F777D25-94C6-3EB7-A29F-1B442D70E857}</Project>
       <Name>SnippetImmediateArticulation</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetImmediateMode.vcxproj">
-      <Project>{6488AE70-CDE0-3720-AC42-84201A2DBABC}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetImmediateMode.vcxproj">
+      <Project>{0E5088B0-27CD-3953-A61E-1E6F311140CE}</Project>
       <Name>SnippetImmediateMode</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetJoint.vcxproj">
-      <Project>{C89260CF-9AEE-39C4-87D1-44F2F3D796ED}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetJoint.vcxproj">
+      <Project>{FFD220E5-9252-370F-8A8E-F08077FE911F}</Project>
       <Name>SnippetJoint</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetLoadCollection.vcxproj">
-      <Project>{007F089E-3E8B-389A-9FF3-164A6496339F}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetLoadCollection.vcxproj">
+      <Project>{AD1BAF39-6E48-3EDB-B146-65DEDDEC539D}</Project>
       <Name>SnippetLoadCollection</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetMBP.vcxproj">
-      <Project>{03005B3B-3D2D-31DC-9167-40EAC1C048B1}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetMBP.vcxproj">
+      <Project>{1CE0D247-92BC-3D24-BC39-647D613AFDFF}</Project>
       <Name>SnippetMBP</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetMultiThreading.vcxproj">
-      <Project>{CCFA4E86-B9DA-3EBE-A39D-EC9FF12819E5}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetMultiThreading.vcxproj">
+      <Project>{711A8214-F8FC-30A0-A23B-9CA529408F5D}</Project>
       <Name>SnippetMultiThreading</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetNestedScene.vcxproj">
-      <Project>{62B21480-D5F5-323B-A534-A2628A18D2C5}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetNestedScene.vcxproj">
+      <Project>{2A82E155-94D2-321F-BC34-E4F0C9AE1BA4}</Project>
       <Name>SnippetNestedScene</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetPrunerSerialization.vcxproj">
-      <Project>{3A4C1719-BAFE-3757-AE95-447D69C7B188}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetPrunerSerialization.vcxproj">
+      <Project>{69D47186-DFFA-3F52-A080-4D86046873A3}</Project>
       <Name>SnippetPrunerSerialization</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetRaycastCCD.vcxproj">
-      <Project>{172C87F2-FBF2-3951-A3EC-9714A1004A64}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetRaycastCCD.vcxproj">
+      <Project>{02D9B568-5974-3D27-93DD-5C7262F5A7A3}</Project>
       <Name>SnippetRaycastCCD</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetRender.vcxproj">
-      <Project>{2DA8A484-3C8A-35A6-A15C-E8CC3C556E7F}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetRender.vcxproj">
+      <Project>{5D0745F9-9B6C-3EDE-B6BB-780B270AA6E9}</Project>
       <Name>SnippetRender</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetSerialization.vcxproj">
-      <Project>{3D66A8A6-48C0-31CF-A036-5F0E7E6F5950}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetSerialization.vcxproj">
+      <Project>{F8FD67E5-FF4F-3FC7-9578-A5F9A8E16929}</Project>
       <Name>SnippetSerialization</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetSplitFetchResults.vcxproj">
-      <Project>{1F70CD44-199F-307F-8AC9-DF4E9E20E690}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetSplitFetchResults.vcxproj">
+      <Project>{13C25955-C907-3347-968C-E0211333EBA1}</Project>
       <Name>SnippetSplitFetchResults</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetSplitSim.vcxproj">
-      <Project>{A0817DA4-240B-379E-A55F-60A600463E42}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetSplitSim.vcxproj">
+      <Project>{CDFA6351-0C4D-3471-A740-AB7C08F24890}</Project>
       <Name>SnippetSplitSim</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetStepper.vcxproj">
-      <Project>{088AE126-C73F-327D-9499-646DFF74B668}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetStepper.vcxproj">
+      <Project>{85C0621D-0EC1-330A-88C8-720827C3269A}</Project>
       <Name>SnippetStepper</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetToleranceScale.vcxproj">
-      <Project>{1F7C2F36-74AC-3041-BC77-B6ED23E82D85}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetToleranceScale.vcxproj">
+      <Project>{0A3537F2-BE14-3DAD-A5B2-E78E4D906F4C}</Project>
       <Name>SnippetToleranceScale</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetTriangleMeshCreate.vcxproj">
-      <Project>{1D8FEE91-DDAB-331C-8E78-CC2A7AE6C9E7}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetTriangleMeshCreate.vcxproj">
+      <Project>{B2E05224-0A29-380C-946F-07DAEBC1C403}</Project>
       <Name>SnippetTriangleMeshCreate</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetUtils.vcxproj">
-      <Project>{9FEB1F98-8984-3C72-AAB6-19F1BE59F427}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetUtils.vcxproj">
+      <Project>{84755729-7489-31AE-A196-272A40298D47}</Project>
       <Name>SnippetUtils</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetVehicle4W.vcxproj">
-      <Project>{C3F2D8EC-1CBE-3DD1-9C9B-6466A626BE7F}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetVehicle4W.vcxproj">
+      <Project>{CAB0793E-A5B1-3EFE-A710-E1431EB1ED09}</Project>
       <Name>SnippetVehicle4W</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetVehicleContactMod.vcxproj">
-      <Project>{0438A6DB-E258-328E-BDB1-01A9A076B225}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetVehicleContactMod.vcxproj">
+      <Project>{D3F127D3-1804-3590-9014-498B990CD701}</Project>
       <Name>SnippetVehicleContactMod</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetVehicleMultiThreading.vcxproj">
-      <Project>{F32F9BDA-7C35-388C-9089-219308DFA712}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetVehicleMultiThreading.vcxproj">
+      <Project>{85C262D0-5205-3C08-B5DF-8A36EDB33BF4}</Project>
       <Name>SnippetVehicleMultiThreading</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetVehicleNoDrive.vcxproj">
-      <Project>{815BECFF-2A17-3D91-963D-BDAA0474962F}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetVehicleNoDrive.vcxproj">
+      <Project>{E60537F2-1B23-31CC-88E7-A13D8387802D}</Project>
       <Name>SnippetVehicleNoDrive</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetVehicleScale.vcxproj">
-      <Project>{01ED3653-64F8-3B66-8252-1D19868702AF}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetVehicleScale.vcxproj">
+      <Project>{B913AD6D-137C-35A2-A0DE-D1550A937C56}</Project>
       <Name>SnippetVehicleScale</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetVehicleTank.vcxproj">
-      <Project>{65989686-8317-30B6-B56B-217086C2CD1A}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\SnippetVehicleTank.vcxproj">
+      <Project>{0D1A43CF-ECBB-35E1-B5EB-EA9FAD9BB774}</Project>
       <Name>SnippetVehicleTank</Name>
     </ProjectReference>
   </ItemGroup>

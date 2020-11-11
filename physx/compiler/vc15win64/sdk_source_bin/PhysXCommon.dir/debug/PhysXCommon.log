@@ -1,4 +1,4 @@
-﻿  Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/source/compiler/cmake/CMakeLists.txt
+﻿  Building Custom Rule D:/01-Learning/07-PhysX/physx/source/compiler/cmake/CMakeLists.txt
   CmCollection.cpp
   CmMathUtils.cpp
   CmPtrTable.cpp
@@ -133,6 +133,6 @@
   GuSweepSphereSphere.cpp
   GuSweepSphereTriangle.cpp
   GuSweepTriangleUtils.cpp
-    正在创建库 D:/01-Learning/06-PhysX/PhysX/physx/bin/win.x86_64.vc141.mt/debug/PhysXCommon_64.lib 和对象 D:/01-Learning/06-PhysX/PhysX/physx/bin/win.x86_64.vc141.mt/debug/PhysXCommon_64.exp
+    正在创建库 D:/01-Learning/07-PhysX/physx/bin/win.x86_64.vc141.mt/debug/PhysXCommon_64.lib 和对象 D:/01-Learning/07-PhysX/physx/bin/win.x86_64.vc141.mt/debug/PhysXCommon_64.exp
 GuMTD.obj : warning LNK4217: 本地定义的符号 ?PxTransformFromSegment@physx@@YA?AVPxTransform@1@AEBVPxVec3@1@0PEAM@Z (class physx::PxTransform __cdecl physx::PxTransformFromSegment(class physx::PxVec3 const &,class physx::PxVec3 const &,float *)) 在函数 "bool __cdecl computeMTD_CapsuleMesh(class physx::PxVec3 &,float &,class physx::Gu::Capsule const &,class physx::PxTriangleMeshGeometry const &,class physx::PxTransform const &)" (?computeMTD_CapsuleMesh@@YA_NAEAVPxVec3@physx@@AEAMAEBVCapsule@Gu@2@AEBVPxTriangleMeshGeometry@2@AEBVPxTransform@2@@Z) 中导入
-  PhysXCommon.vcxproj -> D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\debug\PhysXCommon_64.dll
+  PhysXCommon.vcxproj -> D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\debug\PhysXCommon_64.dll

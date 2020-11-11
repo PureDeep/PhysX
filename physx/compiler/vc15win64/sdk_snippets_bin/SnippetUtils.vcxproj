@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9FEB1F98-8984-3C72-AAB6-19F1BE59F427}</ProjectGuid>
+    <ProjectGuid>{84755729-7489-31AE-A196-272A40298D47}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -56,26 +56,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">SnippetUtils.dir\debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='debug|x64'">SnippetUtils_static_64</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\checked\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\checked\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='checked|x64'">SnippetUtils.dir\checked\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='checked|x64'">SnippetUtils_static_64</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='checked|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\profile\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\profile\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='profile|x64'">SnippetUtils.dir\profile\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='profile|x64'">SnippetUtils_static_64</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='profile|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">SnippetUtils.dir\release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='release|x64'">SnippetUtils_static_64</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='release|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /d2Zi+</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>UninitializedLocalUsageCheck</BasicRuntimeChecks>
@@ -97,14 +97,14 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>_DEBUG;WIN32;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_DEBUG=1;PX_CHECKED=1;PX_NVTX=0;PX_SUPPORT_PVD=1;CMAKE_INTDIR="debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\debug\SnippetUtils_static__64.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\debug\SnippetUtils_static__64.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_DEBUG=1;PX_CHECKED=1;PX_NVTX=0;PX_SUPPORT_PVD=1;CMAKE_INTDIR=\"debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -117,7 +117,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='checked|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /d2Zi+</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
@@ -138,14 +138,14 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN32;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_CHECKED=1;PX_NVTX=0;PX_SUPPORT_PVD=1;CMAKE_INTDIR="checked";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\checked\SnippetUtils_static__64.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\checked\SnippetUtils_static__64.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_CHECKED=1;PX_NVTX=0;PX_SUPPORT_PVD=1;CMAKE_INTDIR=\"checked\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -158,7 +158,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='profile|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /d2Zi+</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
@@ -179,14 +179,14 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN32;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_PROFILE=1;PX_NVTX=0;PX_SUPPORT_PVD=1;CMAKE_INTDIR="profile";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\profile\SnippetUtils_static__64.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\profile\SnippetUtils_static__64.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_PROFILE=1;PX_NVTX=0;PX_SUPPORT_PVD=1;CMAKE_INTDIR=\"profile\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -199,7 +199,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /d2Zi+</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
@@ -220,14 +220,14 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN32;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_SUPPORT_PVD=0;CMAKE_INTDIR="release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\release\SnippetUtils_static__64.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\release\SnippetUtils_static__64.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_SUPPORT_PVD=0;CMAKE_INTDIR=\"release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\01-Learning\06-PhysX\PhysX\physx\include;D:\01-Learning\06-PhysX\PhysX\physx\source\common\src;D:\01-Learning\06-PhysX\PhysX\physx\..\pxshared\include;D:\01-Learning\06-PhysX\PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\01-Learning\07-PhysX\physx\include;D:\01-Learning\07-PhysX\physx\source\common\src;D:\01-Learning\07-PhysX\physx\..\pxshared\include;D:\01-Learning\07-PhysX\physx\source\foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -239,10 +239,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule D:/01-Learning/07-PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/06-PhysX/PhysX/physx/compiler/public -BD:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_snippets_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/07-PhysX/physx/compiler/public -BD:/01-Learning/07-PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_snippets_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -250,12 +250,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\07-PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule D:/01-Learning/07-PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='checked|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/06-PhysX/PhysX/physx/compiler/public -BD:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_snippets_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/07-PhysX/physx/compiler/public -BD:/01-Learning/07-PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_snippets_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -263,12 +263,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\07-PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='checked|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule D:/01-Learning/07-PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='profile|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/06-PhysX/PhysX/physx/compiler/public -BD:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_snippets_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/07-PhysX/physx/compiler/public -BD:/01-Learning/07-PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_snippets_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -276,12 +276,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\07-PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule D:/01-Learning/07-PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/06-PhysX/PhysX/physx/compiler/public -BD:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_snippets_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/07-PhysX/physx/compiler/public -BD:/01-Learning/07-PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_snippets_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -289,24 +289,24 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\01-Learning\06-PhysX\PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\07-PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\01-Learning\07-PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\snippets\snippetutils\SnippetUtils.cpp" />
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\snippets\snippetutils\SnippetUtils.h" />
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\snippets\snippetutils\SnippetUtils.cpp" />
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\snippets\snippetutils\SnippetUtils.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\ZERO_CHECK.vcxproj">
-      <Project>{F9E2409F-C349-32D2-95A9-98820B7CAD3F}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\ZERO_CHECK.vcxproj">
+      <Project>{CDBEF4C7-D392-31D5-B418-0DAD3BEEFE9B}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXFoundation.vcxproj">
-      <Project>{49A8D320-784D-33BD-842D-ADF98C0A4046}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_source_bin\PhysXFoundation.vcxproj">
+      <Project>{B71010BC-C64A-3B8E-BD37-1E540FA2E7AB}</Project>
       <Name>PhysXFoundation</Name>
     </ProjectReference>
   </ItemGroup>

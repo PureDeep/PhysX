@@ -1,243 +1,243 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileEventImpl.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileEventImpl.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvd.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvd.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdDataStream.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdDataStream.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdDefaultFileTransport.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdDefaultFileTransport.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdDefaultSocketTransport.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdDefaultSocketTransport.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdImpl.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdImpl.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdMemClient.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdMemClient.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdObjectModelMetaData.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdObjectModelMetaData.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdObjectRegistrar.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdObjectRegistrar.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdProfileZoneClient.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdProfileZoneClient.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdUserRenderer.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdUserRenderer.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\include\pvd\PxPvd.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\include\pvd\PxPvd.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\include\pvd\PxPvdTransport.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\include\pvd\PxPvdTransport.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\filebuf\include\PsAsciiConversion.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\filebuf\include\PsAsciiConversion.h">
       <Filter>filebuf\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\filebuf\include\PsAsciiConversion.inl">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\filebuf\include\PsAsciiConversion.inl">
       <Filter>filebuf\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\filebuf\include\PsFileBuffer.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\filebuf\include\PsFileBuffer.h">
       <Filter>filebuf\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\filebuf\include\PsIOStream.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\filebuf\include\PsIOStream.h">
       <Filter>filebuf\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\filebuf\include\PsIOStream.inl">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\filebuf\include\PsIOStream.inl">
       <Filter>filebuf\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\filebuf\include\PsMemoryBuffer.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\filebuf\include\PsMemoryBuffer.h">
       <Filter>filebuf\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\include\PsPvd.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\include\PsPvd.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\include\PxProfileAllocatorWrapper.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\include\PxProfileAllocatorWrapper.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\include\PxPvdClient.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\include\PxPvdClient.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\include\PxPvdDataStream.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\include\PxPvdDataStream.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\include\PxPvdDataStreamHelpers.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\include\PxPvdDataStreamHelpers.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\include\PxPvdErrorCodes.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\include\PxPvdErrorCodes.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\include\PxPvdObjectModelBaseTypes.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\include\PxPvdObjectModelBaseTypes.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\include\PxPvdRenderBuffer.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\include\PxPvdRenderBuffer.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\include\PxPvdUserRenderer.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\include\PxPvdUserRenderer.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileContextProvider.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileContextProvider.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileContextProviderImpl.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileContextProviderImpl.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileDataBuffer.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileDataBuffer.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileDataParsing.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileDataParsing.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileEventBuffer.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileEventBuffer.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileEventBufferAtomic.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileEventBufferAtomic.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileEventBufferClient.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileEventBufferClient.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileEventBufferClientManager.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileEventBufferClientManager.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileEventId.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileEventId.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileEventMutex.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileEventMutex.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileEventNames.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileEventNames.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileEvents.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileEvents.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileEventSender.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileEventSender.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileEventSerialization.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileEventSerialization.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileMemory.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileMemory.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileMemoryBuffer.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileMemoryBuffer.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileMemoryEventBuffer.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileMemoryEventBuffer.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileMemoryEvents.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileMemoryEvents.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileScopedEvent.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileScopedEvent.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileScopedMutexLock.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileScopedMutexLock.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdProfileZone.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdProfileZone.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileZoneImpl.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileZoneImpl.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileZoneManager.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileZoneManager.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxProfileZoneManagerImpl.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxProfileZoneManagerImpl.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdBits.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdBits.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdByteStreams.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdByteStreams.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdCommStreamEvents.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdCommStreamEvents.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdCommStreamEventSink.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdCommStreamEventSink.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdCommStreamTypes.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdCommStreamTypes.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdDefaultFileTransport.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdDefaultFileTransport.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdDefaultSocketTransport.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdDefaultSocketTransport.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdFoundation.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdFoundation.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdImpl.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdImpl.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdInternalByteStreams.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdInternalByteStreams.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdMarshalling.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdMarshalling.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdMemClient.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdMemClient.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdObjectModelInternalTypeDefs.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdObjectModelInternalTypeDefs.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdObjectModelInternalTypes.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdObjectModelInternalTypes.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdObjectModelMetaData.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdObjectModelMetaData.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdObjectRegistrar.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdObjectRegistrar.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdProfileZoneClient.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdProfileZoneClient.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdUserRenderImpl.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdUserRenderImpl.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\pvd\src\PxPvdUserRenderTypes.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\pvd\src\PxPvdUserRenderTypes.h">
       <Filter>src\src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\CMakeLists.txt" />
+    <CustomBuild Include="D:\01-Learning\07-PhysX\physx\source\compiler\cmake\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="filebuf">
-      <UniqueIdentifier>{7F94BBC7-0056-3181-A989-965C703A8722}</UniqueIdentifier>
+      <UniqueIdentifier>{ABD770A9-443D-33DE-9DA1-C46045D27084}</UniqueIdentifier>
     </Filter>
     <Filter Include="filebuf\include">
-      <UniqueIdentifier>{D869981A-31B2-3672-B022-FEB7FADDCFDC}</UniqueIdentifier>
+      <UniqueIdentifier>{3901304C-4341-30F6-8F2B-3B298B32E5C3}</UniqueIdentifier>
     </Filter>
     <Filter Include="include">
-      <UniqueIdentifier>{BAB1CB82-E0BB-384C-B7FA-4326C8DA4E26}</UniqueIdentifier>
+      <UniqueIdentifier>{FE8B83D0-8FA5-33B4-8ACA-3C96C881F447}</UniqueIdentifier>
     </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{67BBDBD5-1D10-3452-AD96-291852809E00}</UniqueIdentifier>
+      <UniqueIdentifier>{2344A59C-453D-3E58-829E-298C5BE49C77}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\include">
-      <UniqueIdentifier>{F09CA691-4CEA-3E51-9659-BDE7DF74D0E5}</UniqueIdentifier>
+      <UniqueIdentifier>{FAA98EDE-0F22-32E9-8B7D-65C9C0FFDC25}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\src">
-      <UniqueIdentifier>{71F3EE9C-6BD1-3C97-8FE3-1E27CA739641}</UniqueIdentifier>
+      <UniqueIdentifier>{59AAD75D-A5EB-345C-BF10-BC29F9C6F03F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

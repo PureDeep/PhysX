@@ -1,4 +1,4 @@
-﻿  Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/source/compiler/cmake/CMakeLists.txt
+﻿  Building Custom Rule D:/01-Learning/07-PhysX/physx/source/compiler/cmake/CMakeLists.txt
   CctBoxController.cpp
   CctCapsuleController.cpp
   CctCharacterController.cpp
@@ -9,4 +9,4 @@
   CctSweptBox.cpp
   CctSweptCapsule.cpp
   CctSweptVolume.cpp
-  PhysXCharacterKinematic.vcxproj -> D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\debug\PhysXCharacterKinematic_static_64.lib
+  PhysXCharacterKinematic.vcxproj -> D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\debug\PhysXCharacterKinematic_static_64.lib

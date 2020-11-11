@@ -1,240 +1,240 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScActorCore.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScActorCore.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScActorSim.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScActorSim.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScArticulationCore.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScArticulationCore.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScArticulationJointCore.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScArticulationJointCore.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScArticulationJointSim.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScArticulationJointSim.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScArticulationSim.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScArticulationSim.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScBodyCore.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScBodyCore.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScBodySim.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScBodySim.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScConstraintCore.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScConstraintCore.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScConstraintGroupNode.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScConstraintGroupNode.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScConstraintInteraction.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScConstraintInteraction.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScConstraintProjectionManager.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScConstraintProjectionManager.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScConstraintProjectionTree.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScConstraintProjectionTree.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScConstraintSim.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScConstraintSim.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScElementInteractionMarker.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScElementInteractionMarker.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScElementSim.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScElementSim.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScInteraction.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScInteraction.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScIterators.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScIterators.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScMetaData.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScMetaData.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScNPhaseCore.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScNPhaseCore.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScPhysics.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScPhysics.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScRigidCore.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScRigidCore.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScRigidSim.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScRigidSim.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScScene.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScScene.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScShapeCore.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScShapeCore.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScShapeInteraction.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScShapeInteraction.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScShapeSim.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScShapeSim.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScSimStats.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScSimStats.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScSimulationController.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScSimulationController.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScSqBoundsManager.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScSqBoundsManager.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScStaticCore.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScStaticCore.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScTriggerInteraction.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScTriggerInteraction.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\include\ScActorCore.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\include\ScActorCore.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\include\ScArticulationCore.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\include\ScArticulationCore.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\include\ScArticulationJointCore.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\include\ScArticulationJointCore.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\include\ScBodyCore.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\include\ScBodyCore.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\include\ScConstraintCore.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\include\ScConstraintCore.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\include\ScIterators.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\include\ScIterators.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\include\ScMaterialCore.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\include\ScMaterialCore.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\include\ScPhysics.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\include\ScPhysics.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\include\ScRigidCore.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\include\ScRigidCore.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\include\ScScene.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\include\ScScene.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\include\ScShapeCore.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\include\ScShapeCore.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\include\ScStaticCore.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\include\ScStaticCore.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScActorPair.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScActorPair.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScActorSim.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScActorSim.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScArticulationJointSim.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScArticulationJointSim.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScArticulationSim.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScArticulationSim.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScBodySim.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScBodySim.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScClient.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScClient.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScConstraintGroupNode.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScConstraintGroupNode.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScConstraintInteraction.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScConstraintInteraction.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScConstraintProjectionManager.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScConstraintProjectionManager.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScConstraintProjectionTree.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScConstraintProjectionTree.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScConstraintSim.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScConstraintSim.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScContactReportBuffer.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScContactReportBuffer.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScContactStream.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScContactStream.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScElementInteractionMarker.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScElementInteractionMarker.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScElementSim.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScElementSim.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScElementSimInteraction.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScElementSimInteraction.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScInteraction.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScInteraction.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScInteractionFlags.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScInteractionFlags.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScNPhaseCore.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScNPhaseCore.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScObjectIDTracker.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScObjectIDTracker.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScRigidSim.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScRigidSim.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScShapeInteraction.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScShapeInteraction.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScShapeSim.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScShapeSim.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScSimStateData.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScSimStateData.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScSimStats.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScSimStats.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScSimulationController.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScSimulationController.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScSqBoundsManager.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScSqBoundsManager.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScStaticSim.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScStaticSim.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScTriggerInteraction.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScTriggerInteraction.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\simulationcontroller\src\ScTriggerPairs.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\simulationcontroller\src\ScTriggerPairs.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\CMakeLists.txt" />
+    <CustomBuild Include="D:\01-Learning\07-PhysX\physx\source\compiler\cmake\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include">
-      <UniqueIdentifier>{BAB1CB82-E0BB-384C-B7FA-4326C8DA4E26}</UniqueIdentifier>
+      <UniqueIdentifier>{FE8B83D0-8FA5-33B4-8ACA-3C96C881F447}</UniqueIdentifier>
     </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{67BBDBD5-1D10-3452-AD96-291852809E00}</UniqueIdentifier>
+      <UniqueIdentifier>{2344A59C-453D-3E58-829E-298C5BE49C77}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

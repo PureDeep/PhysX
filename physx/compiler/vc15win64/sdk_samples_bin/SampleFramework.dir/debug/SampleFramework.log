@@ -1,4 +1,4 @@
-﻿  Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/samples/compiler/cmake/CMakeLists.txt
+﻿  Building Custom Rule D:/01-Learning/07-PhysX/physx/samples/compiler/cmake/CMakeLists.txt
   WindowsSampleAssetManager.cpp
   nv_dds.cpp
   ODBlock.cpp
@@ -15,4 +15,4 @@
   SampleTree.cpp
   SampleTriangleDebugRender.cpp
   targa.cpp
-  SampleFramework.vcxproj -> D:\01-Learning\06-PhysX\PhysX\physx\bin\win.x86_64.vc141.mt\debug\SampleFramework_static_64.lib
+  SampleFramework.vcxproj -> D:\01-Learning\07-PhysX\physx\bin\win.x86_64.vc141.mt\debug\SampleFramework_static_64.lib

@@ -1,185 +1,185 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\Adjacencies.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\Adjacencies.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\Cooking.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\Cooking.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\CookingUtils.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\CookingUtils.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\EdgeList.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\EdgeList.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\MeshCleaner.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\MeshCleaner.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\Quantizer.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\Quantizer.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\BVHStructureBuilder.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\BVHStructureBuilder.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\mesh\HeightFieldCooking.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\mesh\HeightFieldCooking.cpp">
       <Filter>src\mesh</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\mesh\RTreeCooking.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\mesh\RTreeCooking.cpp">
       <Filter>src\mesh</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\mesh\MeshBuilder.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\mesh\MeshBuilder.cpp">
       <Filter>src\mesh</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\mesh\TriangleMeshBuilder.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\mesh\TriangleMeshBuilder.cpp">
       <Filter>src\mesh</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\mesh\GrbTriangleMeshCooking.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\mesh\GrbTriangleMeshCooking.cpp">
       <Filter>src\mesh</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\convex\BigConvexDataBuilder.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\convex\BigConvexDataBuilder.cpp">
       <Filter>src\convex</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\convex\ConvexHullBuilder.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\convex\ConvexHullBuilder.cpp">
       <Filter>src\convex</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\convex\ConvexHullLib.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\convex\ConvexHullLib.cpp">
       <Filter>src\convex</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\convex\ConvexHullUtils.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\convex\ConvexHullUtils.cpp">
       <Filter>src\convex</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\convex\ConvexMeshBuilder.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\convex\ConvexMeshBuilder.cpp">
       <Filter>src\convex</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\convex\ConvexPolygonsBuilder.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\convex\ConvexPolygonsBuilder.cpp">
       <Filter>src\convex</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\convex\QuickHullConvexHullLib.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\convex\QuickHullConvexHullLib.cpp">
       <Filter>src\convex</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\convex\VolumeIntegration.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\convex\VolumeIntegration.cpp">
       <Filter>src\convex</Filter>
     </ClCompile>
-    <ClCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\windows\WindowsCookingDelayLoadHook.cpp">
+    <ClCompile Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\windows\WindowsCookingDelayLoadHook.cpp">
       <Filter>src\windows</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\include\cooking\PxBVH33MidphaseDesc.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\include\cooking\PxBVH33MidphaseDesc.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\include\cooking\PxBVH34MidphaseDesc.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\include\cooking\PxBVH34MidphaseDesc.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\include\cooking\Pxc.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\include\cooking\Pxc.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\include\cooking\PxConvexMeshDesc.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\include\cooking\PxConvexMeshDesc.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\include\cooking\PxCooking.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\include\cooking\PxCooking.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\include\cooking\PxMidphaseDesc.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\include\cooking\PxMidphaseDesc.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\include\cooking\PxTriangleMeshDesc.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\include\cooking\PxTriangleMeshDesc.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\include\cooking\PxBVHStructureDesc.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\include\cooking\PxBVHStructureDesc.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\Adjacencies.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\Adjacencies.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\Cooking.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\Cooking.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\CookingUtils.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\CookingUtils.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\EdgeList.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\EdgeList.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\MeshCleaner.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\MeshCleaner.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\Quantizer.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\Quantizer.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\BVHStructureBuilder.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\BVHStructureBuilder.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\mesh\GrbTriangleMeshCooking.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\mesh\GrbTriangleMeshCooking.h">
       <Filter>src\mesh</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\mesh\HeightFieldCooking.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\mesh\HeightFieldCooking.h">
       <Filter>src\mesh</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\mesh\QuickSelect.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\mesh\QuickSelect.h">
       <Filter>src\mesh</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\mesh\RTreeCooking.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\mesh\RTreeCooking.h">
       <Filter>src\mesh</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\mesh\MeshBuilder.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\mesh\MeshBuilder.h">
       <Filter>src\mesh</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\mesh\TriangleMeshBuilder.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\mesh\TriangleMeshBuilder.h">
       <Filter>src\mesh</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\convex\BigConvexDataBuilder.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\convex\BigConvexDataBuilder.h">
       <Filter>src\convex</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\convex\ConvexHullBuilder.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\convex\ConvexHullBuilder.h">
       <Filter>src\convex</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\convex\ConvexHullLib.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\convex\ConvexHullLib.h">
       <Filter>src\convex</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\convex\ConvexHullUtils.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\convex\ConvexHullUtils.h">
       <Filter>src\convex</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\convex\ConvexMeshBuilder.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\convex\ConvexMeshBuilder.h">
       <Filter>src\convex</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\convex\ConvexPolygonsBuilder.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\convex\ConvexPolygonsBuilder.h">
       <Filter>src\convex</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\convex\QuickHullConvexHullLib.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\convex\QuickHullConvexHullLib.h">
       <Filter>src\convex</Filter>
     </ClInclude>
-    <ClInclude Include="D:\01-Learning\06-PhysX\PhysX\physx\source\physxcooking\src\convex\VolumeIntegration.h">
+    <ClInclude Include="D:\01-Learning\07-PhysX\physx\source\physxcooking\src\convex\VolumeIntegration.h">
       <Filter>src\convex</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\cmake\CMakeLists.txt" />
+    <CustomBuild Include="D:\01-Learning\07-PhysX\physx\source\compiler\cmake\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="D:\01-Learning\06-PhysX\PhysX\physx\source\compiler\resource_x64\PhysXCooking.rc">
+    <ResourceCompile Include="D:\01-Learning\07-PhysX\physx\source\compiler\resource_x64\PhysXCooking.rc">
       <Filter>resource</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include">
-      <UniqueIdentifier>{BAB1CB82-E0BB-384C-B7FA-4326C8DA4E26}</UniqueIdentifier>
+      <UniqueIdentifier>{FE8B83D0-8FA5-33B4-8ACA-3C96C881F447}</UniqueIdentifier>
     </Filter>
     <Filter Include="resource">
-      <UniqueIdentifier>{026FE65A-D498-3960-8099-A00AC4597E77}</UniqueIdentifier>
+      <UniqueIdentifier>{468F40A5-6F2A-35E8-89CB-12A8B67CA765}</UniqueIdentifier>
     </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{67BBDBD5-1D10-3452-AD96-291852809E00}</UniqueIdentifier>
+      <UniqueIdentifier>{2344A59C-453D-3E58-829E-298C5BE49C77}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\convex">
-      <UniqueIdentifier>{41BBF966-BCE0-35DB-828F-6B9FA9E15129}</UniqueIdentifier>
+      <UniqueIdentifier>{225881B0-498D-3050-B05D-8001FDA48EA1}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\mesh">
-      <UniqueIdentifier>{73960B9A-D0E3-352B-8922-2D34E65FCBD6}</UniqueIdentifier>
+      <UniqueIdentifier>{D410697C-D958-3129-ACF1-203E18A929F5}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\windows">
-      <UniqueIdentifier>{5E818691-48F8-3154-A6F3-2584425E79CE}</UniqueIdentifier>
+      <UniqueIdentifier>{B20EA7CF-DC48-300B-8433-304AF1079D4A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6395FA5E-BC24-3558-B08E-8D230B91C24F}</ProjectGuid>
+    <ProjectGuid>{0598921D-17E5-3B5E-A69B-22396B87B8A0}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -102,10 +102,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule D:/01-Learning/07-PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/06-PhysX/PhysX/physx/compiler/public -BD:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/07-PhysX/physx/compiler/public -BD:/01-Learning/07-PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -113,12 +113,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\06-PhysX\PhysX\externals\targa\targa-config-version.cmake;D:\01-Learning\06-PhysX\PhysX\externals\targa\targa-config.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\07-PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\07-PhysX\externals\targa\targa-config-version.cmake;D:\01-Learning\07-PhysX\externals\targa\targa-config.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule D:/01-Learning/07-PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='checked|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/06-PhysX/PhysX/physx/compiler/public -BD:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/07-PhysX/physx/compiler/public -BD:/01-Learning/07-PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -126,12 +126,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\06-PhysX\PhysX\externals\targa\targa-config-version.cmake;D:\01-Learning\06-PhysX\PhysX\externals\targa\targa-config.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\07-PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\07-PhysX\externals\targa\targa-config-version.cmake;D:\01-Learning\07-PhysX\externals\targa\targa-config.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='checked|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule D:/01-Learning/07-PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='profile|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/06-PhysX/PhysX/physx/compiler/public -BD:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/07-PhysX/physx/compiler/public -BD:/01-Learning/07-PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -139,12 +139,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\06-PhysX\PhysX\externals\targa\targa-config-version.cmake;D:\01-Learning\06-PhysX\PhysX\externals\targa\targa-config.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\07-PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\07-PhysX\externals\targa\targa-config-version.cmake;D:\01-Learning\07-PhysX\externals\targa\targa-config.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule D:/01-Learning/06-PhysX/PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule D:/01-Learning/07-PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/06-PhysX/PhysX/physx/compiler/public -BD:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/06-PhysX/PhysX/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/01-Learning/07-PhysX/physx/compiler/public -BD:/01-Learning/07-PhysX/physx/compiler/vc15win64 --check-stamp-file D:/01-Learning/07-PhysX/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -152,42 +152,42 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\06-PhysX\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\06-PhysX\PhysX\externals\targa\targa-config-version.cmake;D:\01-Learning\06-PhysX\PhysX\externals\targa\targa-config.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\01-Learning\06-PhysX\PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\07-PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\01-Learning\07-PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\01-Learning\07-PhysX\externals\targa\targa-config-version.cmake;D:\01-Learning\07-PhysX\externals\targa\targa-config.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\01-Learning\07-PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\ZERO_CHECK.vcxproj">
-      <Project>{F9E2409F-C349-32D2-95A9-98820B7CAD3F}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\ZERO_CHECK.vcxproj">
+      <Project>{CDBEF4C7-D392-31D5-B418-0DAD3BEEFE9B}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_samples_bin\SampleBase.vcxproj">
-      <Project>{51070F31-534D-356B-A82C-A9502D2A1548}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_samples_bin\SampleBase.vcxproj">
+      <Project>{5FCED5D6-68ED-3FA0-8F84-389F40552EBE}</Project>
       <Name>SampleBase</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_samples_bin\SampleFramework.vcxproj">
-      <Project>{BBF903AE-28AC-3BB9-BCC8-29BDA7781A4D}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_samples_bin\SampleFramework.vcxproj">
+      <Project>{044AC151-053A-31ED-A089-7BAF3FAA5121}</Project>
       <Name>SampleFramework</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_samples_bin\SamplePlatform.vcxproj">
-      <Project>{29B0BE29-7A64-3ADC-A847-BA6C62855D0C}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_samples_bin\SamplePlatform.vcxproj">
+      <Project>{9AADEE6B-1956-39FF-A564-C92B6C473D25}</Project>
       <Name>SamplePlatform</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_samples_bin\SampleRenderer.vcxproj">
-      <Project>{C320E637-D770-369D-B89B-75085487F897}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_samples_bin\SampleRenderer.vcxproj">
+      <Project>{7956CB2B-7BE1-375D-8FFA-D80B9B904F7B}</Project>
       <Name>SampleRenderer</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_samples_bin\SampleToolkit.vcxproj">
-      <Project>{275E2E35-A30A-3A83-ACDF-449B61BDF430}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_samples_bin\SampleToolkit.vcxproj">
+      <Project>{5B812E94-05AB-38E7-9E07-7963817544FA}</Project>
       <Name>SampleToolkit</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\01-Learning\06-PhysX\PhysX\physx\compiler\vc15win64\sdk_samples_bin\Samples.vcxproj">
-      <Project>{1D1D31C5-5595-32DC-8E3D-FB4253EA55FE}</Project>
+    <ProjectReference Include="D:\01-Learning\07-PhysX\physx\compiler\vc15win64\sdk_samples_bin\Samples.vcxproj">
+      <Project>{732F81A0-8E4D-3AF4-BA8D-29AD6F07D83A}</Project>
       <Name>Samples</Name>
     </ProjectReference>
   </ItemGroup>
